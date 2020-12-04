@@ -1,0 +1,14 @@
+{
+  "name": "clientes-helton-email-cpf",
+  "version": "1.0.0",
+  "description": "Projeto de Estudo - Valida e-mail e cpf",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "valida",
+    "cpf",
+    "email"
+  ],
+  "author": "Helton Isac",
+  "license": "ISC"
+}
