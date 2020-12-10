@@ -1,6 +1,6 @@
 {
   "name": "clientes-helton-email-cpf",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Projeto de Estudo - Valida e-mail e cpf",
   "main": "index.js",
   "keywords": [
