@@ -1,17 +1,12 @@
 class Cliente {
-  constructor(nome, email, cpf) {
-    this.nome = nome;
+  constructor(email, cpf) {
     this.email = email;
     this.cpf = cpf;
   }
 }
 
 function validaEmail(cliente) {
-  if (cliente.email.indexOf("@") === -1) {
-    return `O email do cliente está incorreto`;
-  } else {
-    return `O email do cliente está correto`;
-  }
+  return !cliente.email.indexOf("@") === -1;
 }
 
 function validaCPF(cliente) {
@@ -50,11 +45,7 @@ function validaCPF(cliente) {
     cpfCalc += (11 - resto).toString();
   }
 
-  if (cpfCalc === cpfCliente) {
-    return "CPF Correto";
-  } else {
-    return "CPF Incorreto";
-  }
+  return cpfCalc === cpfCliente;
 }
 
 module.exports = {
