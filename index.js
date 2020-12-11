@@ -6,7 +6,7 @@ class Cliente {
 }
 
 function validaEmail(cliente) {
-  return !cliente.email.indexOf("@") === -1;
+  return !(cliente.email.indexOf("@") === -1);
 }
 
 function validaCPF(cliente) {
